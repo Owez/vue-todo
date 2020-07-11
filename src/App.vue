@@ -20,18 +20,7 @@ export default {
   },
   data() {
     return {
-      todos: [
-        {
-          id: 1,
-          title: "First fdgdfgdffgtodo",
-          completed: false
-        },
-        {
-          id: 2,
-          title: "Other todo",
-          completed: true
-        }
-      ]
+      todos: []
     };
   },
   methods: {
